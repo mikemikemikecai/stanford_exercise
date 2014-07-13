@@ -7,13 +7,13 @@
 //
 
 #import "MultiCardGameViewController.h"
-
+#import "CardGameViewController.h"
 @interface MultiCardGameViewController ()
 
 
 @property (strong, nonatomic) IBOutletCollection(UIButton) NSArray*cardButton;
 @property (strong, nonatomic) NSMutableArray* cards;
-
+@property (strong, nonatomic) SwitchCardGame* switchCardGame;
 @end
 
 @implementation MultiCardGameViewController
@@ -24,9 +24,11 @@
     
     if (self) {
         // Custom initialization
-        Card* card;
-        for (card in self.playingCardDeck) {
-            
+        NSInteger i = [self.cardButton count];
+//        Card* card;
+        for (;i > 0; i--) {
+            //[self.cardButton[i] setBackgroundImage:@"cardfront"];
+            self.cards[i] = self.switchCardGame.playingCardDeck.drawRandomCard;
         }
     }
     return self;
@@ -35,24 +37,19 @@
 -(id)initWithCardCount:(NSInteger)cardCount {
     self = [super init];
     
-    if (self){
-        if (cardCount > self.) {
-            <#statements#>
-        }
-    }
     return self;
 }
 
 - (id)init{
-    self = [super init];
-    if (self){
-    
-    }
-    return self;
+    return [super initWithNibName:@"stanford_exercise" bundle:nil];
 }
 - (IBAction)buttonTouchAction:(UIButton *)sender {
+
     NSInteger index = [self.cardButton indexOfObject:sender];
-    [self.cardButton[index] setTitle:self.playingCardDeck.content];
+    [self.cardButton[index] setBackgroundImage:[UIImage imageNamed:@"confront"]
+                      forState:UIControlStateNormal];
+    //[self.cardButton[index] setTitle:[self.cards[index] contents] forState:UIControlStateNormal];
+    [self.cardButton[index] setTitle:@"A♠️" forState:UIControlStateNormal];
     [self updateUI];
 }
 

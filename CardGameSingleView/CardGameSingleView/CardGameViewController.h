@@ -12,6 +12,6 @@
 @interface CardGameViewController : UIViewController
 
 
--(PlayingCardDeck *)playingCardDeck;
+
 
 @end

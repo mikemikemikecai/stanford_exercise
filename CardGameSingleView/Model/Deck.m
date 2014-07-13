@@ -36,7 +36,6 @@
         [self.cards addObject:card];
     }
     //NSLog(@"sms playingcarddeck addcard cardtop %@", _cards);
-
 }
 
 -(id)drawRandomCard{

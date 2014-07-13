@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="93I-Cc-t9v">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="93I-Cc-t9v">
     <dependencies>
         <deployment defaultVersion="1792" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
@@ -65,8 +65,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xVd-aE-ffg">
-                                <rect key="frame" x="20" y="88" width="102" height="74"/>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xVd-aE-ffg">
+                                <rect key="frame" x="20" y="88" width="60" height="74"/>
                                 <state key="normal" image="stanford">
                                     <attributedString key="attributedTitle"/>
                                 </state>
@@ -75,114 +75,114 @@
                                     <action selector="touchCardButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="9eE-6c-Mfw"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UIO-LV-zMj">
-                                <rect key="frame" x="109" y="88" width="102" height="74"/>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OST-oj-aUs">
+                                <rect key="frame" x="130" y="88" width="60" height="74"/>
                                 <state key="normal" image="stanford">
                                     <attributedString key="attributedTitle"/>
                                 </state>
                                 <connections>
-                                    <action selector="buttonTouchAction:" destination="1Qa-bo-Aj5" eventType="touchUpInside" id="DiI-9H-Fnt"/>
-                                    <action selector="touchCardButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="6kB-90-10P"/>
+                                    <action selector="buttonTouchAction:" destination="1Qa-bo-Aj5" eventType="touchDown" id="OWe-zK-tuj"/>
+                                    <action selector="touchCardButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="gpZ-Pb-x9V"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Bxi-Tg-Gcl">
-                                <rect key="frame" x="198" y="88" width="102" height="74"/>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hQA-BB-gE4">
+                                <rect key="frame" x="240" y="88" width="60" height="74"/>
                                 <state key="normal" image="stanford">
                                     <attributedString key="attributedTitle"/>
                                 </state>
                                 <connections>
-                                    <action selector="buttonTouchAction:" destination="1Qa-bo-Aj5" eventType="touchUpInside" id="Te7-bu-0iH"/>
-                                    <action selector="touchCardButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="rqf-is-sdN"/>
+                                    <action selector="buttonTouchAction:" destination="1Qa-bo-Aj5" eventType="touchDown" id="n9H-Q8-avk"/>
+                                    <action selector="touchCardButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="HC0-J9-cYb"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6Zw-Za-gTM">
-                                <rect key="frame" x="20" y="252" width="102" height="74"/>
-                                <state key="normal" image="stanford">
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AJZ-t6-ItQ">
+                                <rect key="frame" x="20" y="252" width="60" height="74"/>
+                                <state key="normal" image="cardfront">
                                     <attributedString key="attributedTitle"/>
                                 </state>
                                 <connections>
-                                    <action selector="buttonTouchAction:" destination="1Qa-bo-Aj5" eventType="touchUpInside" id="yiu-vw-KCQ"/>
-                                    <action selector="touchCardButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="gqH-oi-KiW"/>
+                                    <action selector="buttonTouchAction:" destination="1Qa-bo-Aj5" eventType="touchDown" id="Qk9-Zi-fe3"/>
+                                    <action selector="touchCardButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="kbt-ef-B9Z"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aal-cv-L1d">
-                                <rect key="frame" x="109" y="252" width="102" height="74"/>
-                                <state key="normal" image="stanford">
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gmj-Ih-qcX">
+                                <rect key="frame" x="130" y="252" width="60" height="74"/>
+                                <state key="normal" image="cardfront">
                                     <attributedString key="attributedTitle"/>
                                 </state>
                                 <connections>
-                                    <action selector="buttonTouchAction:" destination="1Qa-bo-Aj5" eventType="touchUpInside" id="ZMG-jD-8XZ"/>
-                                    <action selector="touchCardButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="uCR-Z2-6es"/>
+                                    <action selector="buttonTouchAction:" destination="1Qa-bo-Aj5" eventType="touchDown" id="GiD-wO-faf"/>
+                                    <action selector="touchCardButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="VIw-xy-mSR"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wMT-fV-L8o">
-                                <rect key="frame" x="198" y="252" width="102" height="74"/>
-                                <state key="normal" image="stanford">
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TR5-t9-nvz">
+                                <rect key="frame" x="240" y="252" width="60" height="74"/>
+                                <state key="normal" image="cardfront">
                                     <attributedString key="attributedTitle"/>
                                 </state>
                                 <connections>
-                                    <action selector="buttonTouchAction:" destination="1Qa-bo-Aj5" eventType="touchUpInside" id="JNg-x2-sp7"/>
-                                    <action selector="touchCardButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="3mo-82-U8A"/>
+                                    <action selector="buttonTouchAction:" destination="1Qa-bo-Aj5" eventType="touchDown" id="6Mf-kv-Mwo"/>
+                                    <action selector="touchCardButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="TMF-r7-ocX"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hL9-zD-riG">
-                                <rect key="frame" x="20" y="334" width="102" height="74"/>
-                                <state key="normal" image="stanford">
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9ON-RV-kYA">
+                                <rect key="frame" x="20" y="334" width="60" height="74"/>
+                                <state key="normal" image="cardfront">
                                     <attributedString key="attributedTitle"/>
                                 </state>
                                 <connections>
-                                    <action selector="buttonTouchAction:" destination="1Qa-bo-Aj5" eventType="touchUpInside" id="D5d-an-H2S"/>
-                                    <action selector="touchCardButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="GQT-Tx-ejl"/>
+                                    <action selector="buttonTouchAction:" destination="1Qa-bo-Aj5" eventType="touchDown" id="IIh-g8-2FL"/>
+                                    <action selector="touchCardButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="S4F-8G-Ogy"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="v8H-SP-jpw">
-                                <rect key="frame" x="109" y="334" width="102" height="74"/>
-                                <state key="normal" image="stanford">
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TV0-Cx-QHm">
+                                <rect key="frame" x="130" y="334" width="60" height="74"/>
+                                <state key="normal" image="cardfront">
                                     <attributedString key="attributedTitle"/>
                                 </state>
                                 <connections>
-                                    <action selector="buttonTouchAction:" destination="1Qa-bo-Aj5" eventType="touchUpInside" id="rh5-6G-FVS"/>
-                                    <action selector="touchCardButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="pYJ-H2-Vk9"/>
+                                    <action selector="buttonTouchAction:" destination="1Qa-bo-Aj5" eventType="touchDown" id="aaL-gx-6Ip"/>
+                                    <action selector="touchCardButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="7p9-HI-PJ0"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="W8u-SO-t7F">
-                                <rect key="frame" x="198" y="334" width="102" height="74"/>
-                                <state key="normal" image="stanford">
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SYc-0w-uIZ">
+                                <rect key="frame" x="240" y="334" width="60" height="74"/>
+                                <state key="normal" image="cardfront">
                                     <attributedString key="attributedTitle"/>
                                 </state>
                                 <connections>
-                                    <action selector="buttonTouchAction:" destination="1Qa-bo-Aj5" eventType="touchUpInside" id="8Ti-N8-7rc"/>
-                                    <action selector="touchCardButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="odZ-6T-JkV"/>
+                                    <action selector="buttonTouchAction:" destination="1Qa-bo-Aj5" eventType="touchDown" id="WNV-by-PGO"/>
+                                    <action selector="touchCardButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="e0l-4e-0uE"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iVW-Gb-ozm">
-                                <rect key="frame" x="20" y="170" width="102" height="74"/>
-                                <state key="normal" image="stanford">
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FoX-iT-EJr">
+                                <rect key="frame" x="20" y="170" width="60" height="74"/>
+                                <state key="normal" image="cardfront">
                                     <attributedString key="attributedTitle"/>
                                 </state>
                                 <connections>
-                                    <action selector="buttonTouchAction:" destination="1Qa-bo-Aj5" eventType="touchUpInside" id="4DC-k1-8Vt"/>
-                                    <action selector="touchCardButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Zr1-99-Ood"/>
+                                    <action selector="buttonTouchAction:" destination="1Qa-bo-Aj5" eventType="touchDown" id="Tc4-a7-wow"/>
+                                    <action selector="touchCardButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Osx-Vy-amG"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KrG-YH-5r0">
-                                <rect key="frame" x="109" y="170" width="102" height="74"/>
-                                <state key="normal" image="stanford">
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wNF-nM-frN">
+                                <rect key="frame" x="130" y="170" width="60" height="74"/>
+                                <state key="normal" image="cardfront">
                                     <attributedString key="attributedTitle"/>
                                 </state>
                                 <connections>
-                                    <action selector="buttonTouchAction:" destination="1Qa-bo-Aj5" eventType="touchUpInside" id="Tmg-44-ZXC"/>
-                                    <action selector="touchCardButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="abD-vF-hCW"/>
+                                    <action selector="buttonTouchAction:" destination="1Qa-bo-Aj5" eventType="touchDown" id="LSj-3C-6EG"/>
+                                    <action selector="touchCardButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="nEe-uV-o4g"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tvi-IB-Djl">
-                                <rect key="frame" x="198" y="170" width="102" height="74"/>
-                                <state key="normal" image="stanford">
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hfz-QI-sxw">
+                                <rect key="frame" x="240" y="170" width="60" height="74"/>
+                                <state key="normal" image="cardfront">
                                     <attributedString key="attributedTitle"/>
                                 </state>
                                 <connections>
-                                    <action selector="buttonTouchAction:" destination="1Qa-bo-Aj5" eventType="touchUpInside" id="rEg-yC-lne"/>
-                                    <action selector="touchCardButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="6ki-1n-Zxu"/>
+                                    <action selector="buttonTouchAction:" destination="1Qa-bo-Aj5" eventType="touchDown" id="Pd3-Pf-9XM"/>
+                                    <action selector="touchCardButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="rxq-Pm-OMY"/>
                                 </connections>
                             </button>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="cut-xZ-2lm">
@@ -208,17 +208,11 @@
                     <navigationItem key="navigationItem" id="LMq-t3-N1E"/>
                     <connections>
                         <outletCollection property="cardButton" destination="xVd-aE-ffg" id="Tvv-5I-eXh"/>
-                        <outletCollection property="cardButton" destination="UIO-LV-zMj" id="7GV-lA-yBq"/>
-                        <outletCollection property="cardButton" destination="Bxi-Tg-Gcl" id="PMu-Oa-m20"/>
-                        <outletCollection property="cardButton" destination="tvi-IB-Djl" id="eIr-FF-KUV"/>
-                        <outletCollection property="cardButton" destination="KrG-YH-5r0" id="DAU-0t-xEg"/>
-                        <outletCollection property="cardButton" destination="iVW-Gb-ozm" id="QNU-nx-GCG"/>
-                        <outletCollection property="cardButton" destination="6Zw-Za-gTM" id="kaZ-ye-I1e"/>
-                        <outletCollection property="cardButton" destination="aal-cv-L1d" id="ysm-cI-cqU"/>
-                        <outletCollection property="cardButton" destination="wMT-fV-L8o" id="oRl-9U-UQ8"/>
-                        <outletCollection property="cardButton" destination="hL9-zD-riG" id="6Nm-Ke-cVa"/>
-                        <outletCollection property="cardButton" destination="v8H-SP-jpw" id="AS3-RB-Rjt"/>
-                        <outletCollection property="cardButton" destination="W8u-SO-t7F" id="Ob6-WQ-8F1"/>
+                        <outletCollection property="cardButton" destination="hQA-BB-gE4" id="Sl3-gV-iJD"/>
+                        <outletCollection property="cardButton" destination="OST-oj-aUs" id="I1g-xG-7Gg"/>
+                        <outletCollection property="cardButton" destination="wNF-nM-frN" id="Vr5-cK-mke"/>
+                        <outletCollection property="cardButton" destination="hfz-QI-sxw" id="0lX-xv-Jwh"/>
+                        <outletCollection property="cardButton" destination="FoX-iT-EJr" id="OMx-ey-sRi"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="z3J-Mb-b3y" userLabel="First Responder" sceneMemberID="firstResponder"/>
