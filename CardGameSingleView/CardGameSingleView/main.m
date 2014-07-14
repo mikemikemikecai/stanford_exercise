@@ -15,8 +15,8 @@ int main(int argc, char * argv[])
     @autoreleasepool {
         
         NSLog(@"main test");
-
         
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([CardGameAppDelegate class]));
     }
 }
+ 

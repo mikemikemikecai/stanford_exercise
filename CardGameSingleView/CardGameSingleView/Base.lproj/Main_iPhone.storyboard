@@ -53,10 +53,10 @@
             </objects>
             <point key="canvasLocation" x="638" y="-541"/>
         </scene>
-        <!--Multi Card Game View Controller-->
+        <!--Card Game View Controller-->
         <scene sceneID="T1d-y3-83S">
             <objects>
-                <viewController id="1Qa-bo-Aj5" customClass="MultiCardGameViewController" sceneMemberID="viewController">
+                <viewController id="1Qa-bo-Aj5" customClass="CardGameViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="DWT-7q-yA1"/>
                         <viewControllerLayoutGuide type="bottom" id="7JR-ab-zw8"/>
@@ -71,7 +71,6 @@
                                     <attributedString key="attributedTitle"/>
                                 </state>
                                 <connections>
-                                    <action selector="buttonTouchAction:" destination="1Qa-bo-Aj5" eventType="touchDown" id="Liq-Iw-Old"/>
                                     <action selector="touchCardButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="9eE-6c-Mfw"/>
                                 </connections>
                             </button>
@@ -81,7 +80,6 @@
                                     <attributedString key="attributedTitle"/>
                                 </state>
                                 <connections>
-                                    <action selector="buttonTouchAction:" destination="1Qa-bo-Aj5" eventType="touchDown" id="OWe-zK-tuj"/>
                                     <action selector="touchCardButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="gpZ-Pb-x9V"/>
                                 </connections>
                             </button>
@@ -91,68 +89,7 @@
                                     <attributedString key="attributedTitle"/>
                                 </state>
                                 <connections>
-                                    <action selector="buttonTouchAction:" destination="1Qa-bo-Aj5" eventType="touchDown" id="n9H-Q8-avk"/>
                                     <action selector="touchCardButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="HC0-J9-cYb"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AJZ-t6-ItQ">
-                                <rect key="frame" x="20" y="252" width="60" height="74"/>
-                                <state key="normal" image="cardfront">
-                                    <attributedString key="attributedTitle"/>
-                                </state>
-                                <connections>
-                                    <action selector="buttonTouchAction:" destination="1Qa-bo-Aj5" eventType="touchDown" id="Qk9-Zi-fe3"/>
-                                    <action selector="touchCardButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="kbt-ef-B9Z"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gmj-Ih-qcX">
-                                <rect key="frame" x="130" y="252" width="60" height="74"/>
-                                <state key="normal" image="cardfront">
-                                    <attributedString key="attributedTitle"/>
-                                </state>
-                                <connections>
-                                    <action selector="buttonTouchAction:" destination="1Qa-bo-Aj5" eventType="touchDown" id="GiD-wO-faf"/>
-                                    <action selector="touchCardButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="VIw-xy-mSR"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TR5-t9-nvz">
-                                <rect key="frame" x="240" y="252" width="60" height="74"/>
-                                <state key="normal" image="cardfront">
-                                    <attributedString key="attributedTitle"/>
-                                </state>
-                                <connections>
-                                    <action selector="buttonTouchAction:" destination="1Qa-bo-Aj5" eventType="touchDown" id="6Mf-kv-Mwo"/>
-                                    <action selector="touchCardButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="TMF-r7-ocX"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9ON-RV-kYA">
-                                <rect key="frame" x="20" y="334" width="60" height="74"/>
-                                <state key="normal" image="cardfront">
-                                    <attributedString key="attributedTitle"/>
-                                </state>
-                                <connections>
-                                    <action selector="buttonTouchAction:" destination="1Qa-bo-Aj5" eventType="touchDown" id="IIh-g8-2FL"/>
-                                    <action selector="touchCardButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="S4F-8G-Ogy"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TV0-Cx-QHm">
-                                <rect key="frame" x="130" y="334" width="60" height="74"/>
-                                <state key="normal" image="cardfront">
-                                    <attributedString key="attributedTitle"/>
-                                </state>
-                                <connections>
-                                    <action selector="buttonTouchAction:" destination="1Qa-bo-Aj5" eventType="touchDown" id="aaL-gx-6Ip"/>
-                                    <action selector="touchCardButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="7p9-HI-PJ0"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SYc-0w-uIZ">
-                                <rect key="frame" x="240" y="334" width="60" height="74"/>
-                                <state key="normal" image="cardfront">
-                                    <attributedString key="attributedTitle"/>
-                                </state>
-                                <connections>
-                                    <action selector="buttonTouchAction:" destination="1Qa-bo-Aj5" eventType="touchDown" id="WNV-by-PGO"/>
-                                    <action selector="touchCardButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="e0l-4e-0uE"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FoX-iT-EJr">
@@ -161,7 +98,6 @@
                                     <attributedString key="attributedTitle"/>
                                 </state>
                                 <connections>
-                                    <action selector="buttonTouchAction:" destination="1Qa-bo-Aj5" eventType="touchDown" id="Tc4-a7-wow"/>
                                     <action selector="touchCardButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Osx-Vy-amG"/>
                                 </connections>
                             </button>
@@ -171,7 +107,6 @@
                                     <attributedString key="attributedTitle"/>
                                 </state>
                                 <connections>
-                                    <action selector="buttonTouchAction:" destination="1Qa-bo-Aj5" eventType="touchDown" id="LSj-3C-6EG"/>
                                     <action selector="touchCardButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="nEe-uV-o4g"/>
                                 </connections>
                             </button>
@@ -181,7 +116,6 @@
                                     <attributedString key="attributedTitle"/>
                                 </state>
                                 <connections>
-                                    <action selector="buttonTouchAction:" destination="1Qa-bo-Aj5" eventType="touchDown" id="Pd3-Pf-9XM"/>
                                     <action selector="touchCardButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="rxq-Pm-OMY"/>
                                 </connections>
                             </button>
@@ -207,7 +141,6 @@
                     </view>
                     <navigationItem key="navigationItem" id="LMq-t3-N1E"/>
                     <connections>
-                        <outletCollection property="cardButton" destination="xVd-aE-ffg" id="Tvv-5I-eXh"/>
                         <outletCollection property="cardButton" destination="hQA-BB-gE4" id="Sl3-gV-iJD"/>
                         <outletCollection property="cardButton" destination="OST-oj-aUs" id="I1g-xG-7Gg"/>
                         <outletCollection property="cardButton" destination="wNF-nM-frN" id="Vr5-cK-mke"/>

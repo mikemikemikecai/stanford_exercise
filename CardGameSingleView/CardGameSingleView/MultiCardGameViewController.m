@@ -8,6 +8,7 @@
 
 #import "MultiCardGameViewController.h"
 #import "CardGameViewController.h"
+
 @interface MultiCardGameViewController ()
 
 
@@ -43,19 +44,8 @@
 - (id)init{
     return [super initWithNibName:@"stanford_exercise" bundle:nil];
 }
-- (IBAction)buttonTouchAction:(UIButton *)sender {
 
-    NSInteger index = [self.cardButton indexOfObject:sender];
-    [self.cardButton[index] setBackgroundImage:[UIImage imageNamed:@"confront"]
-                      forState:UIControlStateNormal];
-    //[self.cardButton[index] setTitle:[self.cards[index] contents] forState:UIControlStateNormal];
-    [self.cardButton[index] setTitle:@"A♠️" forState:UIControlStateNormal];
-    [self updateUI];
-}
 
--(void) updateUI{
-    
-}
 
 - (void)viewDidLoad
 {
