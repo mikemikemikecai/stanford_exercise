@@ -1,6 +1,6 @@
 # stanford exercise
 
-follow the stanford online vedio to finish this card game promgram. I have study IOS programing almost a half and a months. Try to learn more.
+follow the stanford online video to finish this card game promgram. I have studied IOS programing for almost a half and a months. Try to learn more.
 
 # using this code
 
